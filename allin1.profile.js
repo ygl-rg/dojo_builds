@@ -43,12 +43,14 @@ var profile = (function() {
                              "dijit/registry", "dijit/Dialog", "dijit/layout/BorderContainer",
                              "dijit/layout/TabContainer", "dijit/layout/ContentPane", "dijit/form/Button",
                              "dijit/Tooltip", "dijit/form/RadioButton", "dijit/form/CheckBox",
-                             "dijit/form/TextBox", "dijit/form/Select", 
+                             "dijit/form/TextBox", "dijit/form/Select",
                              "dojox/timing", "dojox/collections/Set", "dojox/widget/Standby",
                              "dojox/validate",
-                             "dgrid/OnDemandGrid", "dgrid/CellSelection", "dgrid/Editor",
-                             "dgrid/extensions/ColumnHider", "dgrid/Keyboard",
-                             "dstore/Memory"
+                             "dgrid/Grid", "dgrid/OnDemandList", "dgrid/OnDemandGrid",
+                             "dgrid/CellSelection", "dgrid/Editor", "dgrid/extensions/ColumnHider",
+                             "dgrid/Keyboard",
+                             'dstore/Store', 'dstore/Promised', 'dstore/SimpleQuery',
+                             'dstore/QueryResults', "dstore/Memory"
                              ],
                    boot: true,
                    customBase: true
