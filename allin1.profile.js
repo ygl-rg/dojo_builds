@@ -43,7 +43,7 @@ var profile = (function() {
                              "dijit/registry", "dijit/Dialog", "dijit/layout/BorderContainer",
                              "dijit/layout/TabContainer", "dijit/layout/ContentPane", "dijit/form/Button",
                              "dijit/Tooltip", "dijit/form/RadioButton", "dijit/form/CheckBox",
-                             "dijit/form/TextBox", "dijit/form/Select", "dijit/form/MenuSeparator",
+                             "dijit/form/TextBox", "dijit/form/Select", 
                              "dojox/timing", "dojox/collections/Set", "dojox/widget/Standby",
                              "dojox/validate",
                              "dgrid/OnDemandGrid", "dgrid/CellSelection", "dgrid/Editor",
